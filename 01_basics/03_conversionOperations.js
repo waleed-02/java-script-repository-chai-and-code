@@ -84,3 +84,42 @@
 // "" ==> it will not print any thing
 // [22,"alex"] ==> 22,alex
 // 22 ==> 22
+
+// ******************************** Operations ********************************
+
+let value =3;
+let negvalue = -value;
+// console.log(negvalue); 
+
+//  console.log(2+2);
+//  console.log(2-2);
+//  console.log(2*2);
+//  console.log(2/2);
+//  console.log(2%2);
+//  console.log(2**2);
+//  console.log(2);
+
+// let str1 = "hello";
+// let str2 = " alex";
+// console.log(str1+str2+"1");
+// let str3 = str1 + str2+ "2";
+// console.log(str3);
+// console.log(1+" 2");
+// console.log(1+1+" 2");// it will give 22
+
+// console.log("1 "+2+1); // it will act as a string and number are also be treated as string when you declare them in the start.
+// console.log(3 + 4 * 5 % 6);
+// console.log(+true);// it will give 1 and its not a good practice 
+// console.log(-true);// it will give 1 and its not a good practice 
+
+// let num1, num2, num3;
+// num1+num2+num3+2+2; // its not a good practice.
+//  let gamecounter = 100;
+//  gamecounter++; // gamecounter = gamecounter+1; it is postfix operater
+//  console.log(gamecounter);// 101
+//  ++gamecounter; //1+101=102 // it is a prefix operater
+//  ++gamecounter; //1+102=103
+//  ++gamecounter; //1+103=104
+//  console.log(gamecounter);//104
+
+
