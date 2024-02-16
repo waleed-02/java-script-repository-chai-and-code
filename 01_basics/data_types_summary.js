@@ -52,3 +52,62 @@ const myfunction = function add(a,b)
 console.log(myfunction(20,30));
 console.log(typeof myfunction);// function object type
 // all the reference data type returns object type and funtion returns object function
+
+
+// *************************************************************
+
+// Stack {primitive}, Heap {non-primitive}
+// in stack memory location we get the copy of the value
+// in heap memory location we get the reference of the original value
+// stack memory type is used in all primitive data types
+// heap memory type is used in all non-primitive data type
+
+let myYoutubename = "alexhere ";
+let anothername = myYoutubename;
+anothername = "alexnothere";
+console.log(myYoutubename);
+console.log(anothername);
+let user1 =
+{
+    email:'alex00@gmail.com',
+    id: '33-abc',
+    password: 33902,
+}
+let user2=user1;
+user2.email='alex02@gamail.com';
+console.log(user1);
+console.log(user2);
+
+
+/* 
+|                |            
+|                |            
+|                |            
+|                |            
+|  user2         |            
+|  user1         |            
+|  myYoutubename |            
+|  anothername   |            
+|  myYoutubename |            
+
+
+|--------------------------Heap--------------------------|
+|--------------------------------------------------------|
+|-------------------{
+    email:'alex00@gmail.com',
+    id: '33-abc',
+    password: 33902,
+                   }-------------------------------------|
+|--------------------------------------------------------|
+|--------------------------------------------------------|
+|--------------------------------------------------------|
+|--------------------------------------------------------|
+|--------------------------------------------------------|
+|--------------------------------------------------------|
+|--------------------------------------------------------|
+|--------------------------------------------------------|
+|--------------------------------------------------------|
+|--------------------------------------------------------|
+
+
+*/
