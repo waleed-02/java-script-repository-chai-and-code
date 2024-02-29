@@ -27,7 +27,7 @@ const obj6={9:"c",10:"f"};
 // const obj3 = Object.assign({},obj1,obj2,obj4,obj5,obj6);
 const obj3 = { ...obj1,...obj2,...obj4,...obj5,...obj6 };
 
-console.log(obj3);
+// console.log(obj3);
 
 const users =
 [
@@ -49,10 +49,35 @@ const users =
 ]
 
 users[1].email
-console.log(user);
+// console.log(user);
 
-console.log(Object.keys(user));
-console.log(Object.values(user));
-console.log(Object.entries(user));
+// console.log(Object.keys(user));
+// console.log(Object.values(user));
+// console.log(Object.entries(user));
 
-console.log(user.hasOwnProperty("isonline"));
+// console.log(user.hasOwnProperty("isonline"));
+
+// de-structure of objects
+const course={
+    coursename:"it is here"
+    ,price:"400",
+    courseInstructor :"alex",
+
+
+};
+
+// course.courseInstructor 
+
+const {courseInstructor:instructor}= course;
+// console.log(instructor);
+
+// const navbar = ({company} ) => {
+
+// };
+// navbar(company="alexCo");
+// this is a basic syntax of json API
+// {
+//     "name":"alex",
+//    " coursename":"is here",
+//     "price":"free"
+// }
