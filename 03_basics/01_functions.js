@@ -1,5 +1,3 @@
-
-
 function saymyname(){
     console.log("a");
     console.log("l");
@@ -36,5 +34,36 @@ return ;
     //  we have to use console.log to print the value
 }
 // loginusermessage("alex");// it will not going to show any value cause its just a reference not an execution  
-// console.log(loginusermessage());
-// console.log(loginusermessage("alex"));
+// console.log(loginusermessage()); 
+// console.log(loginusermessage("alex")); 
+
+
+function calculatecartprice(val1,val2,...num1){
+    return num1;
+
+}
+// ... (rest operator as well as spread operator) we use it
+// console.log(calculatecartprice(200,400,500,1000));
+
+const user={
+    username:"alex",
+    prices:200
+};
+function handleobject(anyobject)
+{
+console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+};
+// handleobject(user);
+handleobject({
+    username:"alex",
+    price:200,
+});
+const myarr=[200,300,2000]
+function returnsecondarr (getarr)
+{
+    return getarr[1];
+
+}
+
+// console.log(returnsecondarr(myarr));
+// console.log(returnsecondarr([200,300,400]));
