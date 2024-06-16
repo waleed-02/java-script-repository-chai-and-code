@@ -7,7 +7,10 @@ function saymyname(){
 // saymyname;// it is the reference to the function
 
 // saymyname(); // this the execution of the function
-
+function add(a,b) {
+    return a+b;
+}
+console.log(add(2,3.00));
 function additon(num1, num2)
 {
     // console.log(num1+num2);
