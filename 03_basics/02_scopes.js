@@ -70,4 +70,4 @@ if (true)
 
     // if a function declared as a variable we cannot access it before initialization 
     // a function declared normally can be accessed before initialization 
-    // it a concept of hosting 
+    // it is a concept of hosting 
